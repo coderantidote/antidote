@@ -1,0 +1,21 @@
+.container-fix {
+    padding-top: 40px;
+}
+
+.img-fix {
+    padding-top: 10px;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-shrink: none;
+}

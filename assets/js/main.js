@@ -1,4 +1,4 @@
-function createTable(jsonData) {
+function createTable() {
     $(document).ready(function() {
         $.get("json/posts.json", function(data) {
             $('#thread_table').dataTable({

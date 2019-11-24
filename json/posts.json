@@ -1,15 +1,22 @@
- [{
-     "id": "1",
-     "title": "Hello World",
-     "categories": "Blog",
-     "date": "10/23/2019",
-     "loc": "<a class=\"btn btn-warning btn-sm\" href=\"posts/hello-world.html\">Read</a>"
+[{
+    "id": "1",
+    "title": "Hello World",
+    "categories": "Blog",
+    "date": "10/23/2019",
+    "loc": "<a class=\"btn btn-warning btn-sm\" href=\"posts/hello-world.html\">Oku</a>"
 
- }, {
-     "id": "2",
-     "title": "Sosyal Mühendislik #1",
-     "categories": "Hacking",
-     "date": "10/28/2019",
-     "loc": "<a class=\"btn btn-warning btn-sm\" href=\"posts/sosyal-muhendislik-1.html\">Read</a>"
+}, {
+    "id": "2",
+    "title": "Sosyal Mühendislik Nedir? #1",
+    "categories": "Hacking",
+    "date": "10/28/2019",
+    "loc": "<a class=\"btn btn-warning btn-sm\" href=\"posts/sosyal-muhendislik-nedir-1.html\">Oku</a>"
 
- }]
+}, {
+    "id": "3",
+    "title": "Sosyal Mühendislik Nedir? #2",
+    "categories": "Hacking",
+    "date": "11/24/2019",
+    "loc": "<a class=\"btn btn-warning btn-sm\" href=\"posts/sosyal-muhendislik-nedir-2.html\">Oku</a>"
+
+}]

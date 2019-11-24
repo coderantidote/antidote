@@ -2,6 +2,12 @@ function createTable() {
     $(document).ready(function() {
         $.get("json/posts.json", function(data) {
             $('#thread_table').dataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.12/i18n/Turkish.json"
+                },
+                fixedColumns: true,
+                Responsive: true,
+                autoWidth: false,
                 data: data,
                 columns: [
                     { data: 'title' },
@@ -17,9 +23,7 @@ function createTable() {
                     { width: 100, targets: 1 },
                     { width: 100, targets: 2 },
                     { width: 100, targets: 3 }
-                ],
-                fixedColumns: true,
-                Responsive: true
+                ]
             });
         });
     });

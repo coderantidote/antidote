@@ -18,7 +18,8 @@ function createTable() {
                     { width: 100, targets: 2 },
                     { width: 100, targets: 3 }
                 ],
-                fixedColumns: true
+                fixedColumns: true,
+                Responsive: true
             });
         });
     });

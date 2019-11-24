@@ -3,7 +3,7 @@ function createTable() {
         $.get("json/posts.json", function(data) {
             $('#thread_table').dataTable({
                 "language": {
-                    "url": "//cdn.datatables.net/plug-ins/1.10.12/i18n/Turkish.json"
+                    "url": "https://cdn.datatables.net/plug-ins/1.10.12/i18n/Turkish.json"
                 },
                 fixedColumns: true,
                 Responsive: true,
